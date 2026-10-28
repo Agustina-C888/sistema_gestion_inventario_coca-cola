@@ -20,16 +20,34 @@ Organización Empresarial - Tecnicatura Universitaria en Programación a Distanc
 3. Como responsable de Compras: quiero recibir una alerta cuando el stock baja del mínimo, para hacer el pedido de reposición a tiempo.
 
 ## Declaración de uso de IA
+
+**Herramienta utilizada: Claude (Anthropic).**
+
 **Propósito:**
-- Guía para el uso de la página bpmn.io
-- Guía para el uso de GitHub
-- Corrección de texto
+- Interpretación de la consigna y armado de una lista de pasos.
+- Explicación de BPMN y revisión de mi diagrama contra la consigna.
+- Guía para el uso de bpmn.io y de GitHub (ramas y tablero).
+- Propuesta de las tres historias de usuario, que revisé y elegí.
+- Borradores de los indicadores de control y del texto de este documento, que revisé y 
+adapté.
+- Armado del PDF con la plantilla de la cátedra.
+- Corrección de texto.
 
-**Prompts utilizados y por qué:** 
-- Cómo se generan las lineas punteadas en bpmn.io (para realizar las conexiones)
-- Generá una lista punto por punto de lo que tengo que hacer para este tp. (Me resulta más practico tener una lista estructurada para que no me falte nada).
-- Cómo se generan las ramas en GitHub? (Nunca trabaje con ramas en otros tps, siempre utilicé solo main)
+**Prompts utilizados y por qué:**
+- «Decime punto por punto qué tengo que hacer»: me resultó más práctico tener una 
+lista estructurada para que no me falte nada.
+- «¿Me mostras un ejemplo de cómo se vería el BPMN?»: para entender la notación antes 
+de modelar mi propio proceso.
+- «Las flechas de línea punteada, ¿qué serían? ¿cómo se llaman?»: para entender la 
+notación y poder hacer las conexiones en bpmn.io.
+- «Acá están los TPI del 1 al 3 y el BPMN, ¿me decís si está bien?»: para revisar mi 
+primer borrador contra la consigna y mis entregas anteriores.
 
-**Correcciones humanas sobre lo que sugirió la IA:** 
-- Corrección de texto (cambios de palabras que no tenian conexión con las anteriores entregas)
-- Cambios en correcciones sugeridas por la IA que estaban mal(por ejemplo en el bpmn a veces dice que hay lineas que no aparecen cuando en realidad si están).
+**Correcciones humanas sobre lo que sugirió la IA:**
+- Corrección de texto: cambié palabras que no tenían conexión con las entregas 
+anteriores.
+- Algunas indicaciones eran incorrectas, por ejemplo una opción de menú de bpmn.io 
+que no existía y líneas que se decía que faltaban cuando sí estaban. Lo verifiqué en el 
+diagrama y lo corregí.
+- Elegí el estándar de exactitud del 99 % y redacté las justificaciones con mis palabras.
+- Realización de la corrección final.
